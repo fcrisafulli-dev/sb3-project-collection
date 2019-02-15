@@ -1,0 +1,12 @@
+#!/bin/bash
+
+user=$1
+
+i=0
+
+while [  $i -lt 25 ]; do
+	let offset=i*20
+	echo -ne "Progress: [$((i * 4))%]\r"
+	curl -s https://api.scratch.mit.edu/users/$user/projects?offset=$offset > ../files/$user\_projects_part_$i.json
+	let i=i+1 
+done

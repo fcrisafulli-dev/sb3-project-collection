@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+	user="hobson-tv"
+else
+	user="$1"
+fi
+
+cd scripts/
+echo Collecting data... && ./collect_jsons $user && echo Received all parts && python combine_jsons.py $user && echo Combined all parts && python generate_csv.py $user && echo Completed CSV && ./cleanup_jsons $user
+
+echo Done! The complete csv can be found in files/
