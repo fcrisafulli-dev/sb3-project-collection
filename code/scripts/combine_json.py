@@ -1,6 +1,7 @@
 import json
+import sys
 
-user="hobson-tv"
+user=sys.argv[1]
 
 json_data=[]
 for x in range (25):

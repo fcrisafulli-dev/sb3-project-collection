@@ -1,7 +1,8 @@
 import json
 import csv
+import sys
 
-user="hobson-tv"
+user=sys.argv[1]
 
 with open("../files/%s_projects_full.json" % (user)) as tmpjson:
 	complete_json=json.load(tmpjson)

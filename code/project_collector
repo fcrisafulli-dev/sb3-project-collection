@@ -1,12 +1,14 @@
 #!/bin/bash
 
+user="hobson-tv"
+
 cd scripts/
-./collect_json
+./collect_json $user
 echo Received all parts
-python combine_json.py
+python combine_json.py $user
 echo Combined all parts
-python generate_csv.py
+python generate_csv.py $user
 echo Completed CSV
-./cleanup_jsons
+./cleanup_jsons $user
 
 echo Done! The complete csv can be found in files/
