@@ -7,6 +7,8 @@ For the current version, in order to change the user whose projects get download
 
 # What the columns mean
 
+Keep in mind that links to images were omitted from the csv but can still be found in the json
+
 ## Title
 The name of the project.
 
@@ -23,3 +25,35 @@ The unique id assigned to the user who shared the project.
 
 ## ID
 The unique id assigned to the project. This is the number used on websites like [Phosphorus](https://phosphorus.github.io/) or [Sulfurous](https://sulfurous.aau.at/) to identify projects.
+
+## Views
+
+## Loves
+
+## Favorites
+
+## Comments
+
+## Author_ScratchTeam
+
+## Comments_Allowed
+
+## Is_Published
+
+## Public
+
+## Visibility
+
+## Author_History_Joined
+
+## History_Created
+
+## History_Shared
+
+## History_Modified
+
+## Stats_Remixes
+
+## Remix_Root
+
+## Remix_Parent
