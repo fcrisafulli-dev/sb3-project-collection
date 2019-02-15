@@ -1,6 +1,11 @@
 #!/bin/bash
 
-user="hobson-tv"
+if [ -z "$1" ]; then
+	user="hobson-tv"
+else
+	user="$1"
+fi
+
 
 cd scripts/
 ./collect_json $user
