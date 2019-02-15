@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd scripts/
+./collect_json
+echo Received all parts
+python combine_json.py
+echo Combined all parts
+python generate_csv.py
+echo Completed CSV
+./cleanup_jsons
+
+echo Done! The complete csv can be found in files/

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+user="hobson-tv"
+
+i=0
+
+while [  $i -lt 25 ]; do
+	let offset=i*20
+	rm  ../files/$user\_projects_part_$i.json
+	let i=i+1 
+done
+
+echo Cleaned up temp files
