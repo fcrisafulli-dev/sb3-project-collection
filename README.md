@@ -3,7 +3,9 @@ Collection of scripts to fetch scratch (MIT) projects and their data as complete
 # Usage
 In a bash prompt simply run ./project_collector and your files will automatically be created in files/
 
-For the current version, in order to change the user whose projects get downloaded you will need to edit each file in scripts/ and change the desired username. The variable is at the top of each file making this easy.
+To change the selected user simply type their username as it appears in a url. For example to get griffpatch's projects:
+
+./project_collector griffpatch
 
 # What the columns mean
 
