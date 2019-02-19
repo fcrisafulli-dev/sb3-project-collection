@@ -29,13 +29,13 @@ The unique id assigned to the user who shared the project.
 The unique id assigned to the project. This is the number used on websites like [Phosphorus](https://phosphorus.github.io/) or [Sulfurous](https://sulfurous.aau.at/) to identify projects.
 
 ## Views
-
+The amount of views
 ## Loves
-
+The amount of likes
 ## Favorites
-
+The amount of favorites
 ## Comments
-
+The amount of Comments
 ## Author_ScratchTeam
 
 ## Comments_Allowed
